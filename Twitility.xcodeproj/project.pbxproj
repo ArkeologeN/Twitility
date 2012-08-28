@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FD9DCC615ED256B007A0541 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9DCC515ED256B007A0541 /* UIKit.framework */; };
+		4FD9DCC815ED256B007A0541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9DCC715ED256B007A0541 /* Foundation.framework */; };
+		4FD9DCCA15ED256B007A0541 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9DCC915ED256B007A0541 /* CoreGraphics.framework */; };
+		4FD9DCD015ED256B007A0541 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9DCCE15ED256B007A0541 /* InfoPlist.strings */; };
+		4FD9DCD215ED256B007A0541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9DCD115ED256B007A0541 /* main.m */; };
+		4FD9DCD615ED256B007A0541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9DCD515ED256B007A0541 /* AppDelegate.m */; };
+		4FD9DCD915ED256B007A0541 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9DCD715ED256B007A0541 /* MainStoryboard.storyboard */; };
+		4FD9DCDC15ED256B007A0541 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9DCDB15ED256B007A0541 /* MasterViewController.m */; };
+		4FD9DCDF15ED256B007A0541 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9DCDE15ED256B007A0541 /* DetailViewController.m */; };
+		4FD9DCE715ED256B007A0541 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9DCE615ED256B007A0541 /* SenTestingKit.framework */; };
+		4FD9DCE815ED256B007A0541 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9DCC515ED256B007A0541 /* UIKit.framework */; };
+		4FD9DCE915ED256B007A0541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD9DCC715ED256B007A0541 /* Foundation.framework */; };
+		4FD9DCF115ED256C007A0541 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FD9DCEF15ED256C007A0541 /* InfoPlist.strings */; };
+		4FD9DCF415ED256C007A0541 /* TwitilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9DCF315ED256C007A0541 /* TwitilityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FD9DCEA15ED256C007A0541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD9DCB815ED256B007A0541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD9DCC015ED256B007A0541;
+			remoteInfo = Twitility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FD9DCC115ED256B007A0541 /* Twitility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD9DCC515ED256B007A0541 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4FD9DCC715ED256B007A0541 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4FD9DCC915ED256B007A0541 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4FD9DCCD15ED256B007A0541 /* Twitility-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twitility-Info.plist"; sourceTree = "<group>"; };
+		4FD9DCCF15ED256B007A0541 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FD9DCD115ED256B007A0541 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FD9DCD315ED256B007A0541 /* Twitility-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twitility-Prefix.pch"; sourceTree = "<group>"; };
+		4FD9DCD415ED256B007A0541 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FD9DCD515ED256B007A0541 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FD9DCD815ED256B007A0541 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4FD9DCDA15ED256B007A0541 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4FD9DCDB15ED256B007A0541 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4FD9DCDD15ED256B007A0541 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4FD9DCDE15ED256B007A0541 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4FD9DCE515ED256B007A0541 /* TwitilityTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitilityTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD9DCE615ED256B007A0541 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4FD9DCEE15ED256C007A0541 /* TwitilityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitilityTests-Info.plist"; sourceTree = "<group>"; };
+		4FD9DCF015ED256C007A0541 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FD9DCF215ED256C007A0541 /* TwitilityTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwitilityTests.h; sourceTree = "<group>"; };
+		4FD9DCF315ED256C007A0541 /* TwitilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitilityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD9DCBE15ED256B007A0541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9DCC615ED256B007A0541 /* UIKit.framework in Frameworks */,
+				4FD9DCC815ED256B007A0541 /* Foundation.framework in Frameworks */,
+				4FD9DCCA15ED256B007A0541 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD9DCE115ED256B007A0541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9DCE715ED256B007A0541 /* SenTestingKit.framework in Frameworks */,
+				4FD9DCE815ED256B007A0541 /* UIKit.framework in Frameworks */,
+				4FD9DCE915ED256B007A0541 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FD9DCB615ED256B007A0541 = {
+			isa = PBXGroup;
+			children = (
+				4FD9DCCB15ED256B007A0541 /* Twitility */,
+				4FD9DCEC15ED256C007A0541 /* TwitilityTests */,
+				4FD9DCC415ED256B007A0541 /* Frameworks */,
+				4FD9DCC215ED256B007A0541 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FD9DCC215ED256B007A0541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9DCC115ED256B007A0541 /* Twitility.app */,
+				4FD9DCE515ED256B007A0541 /* TwitilityTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD9DCC415ED256B007A0541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9DCC515ED256B007A0541 /* UIKit.framework */,
+				4FD9DCC715ED256B007A0541 /* Foundation.framework */,
+				4FD9DCC915ED256B007A0541 /* CoreGraphics.framework */,
+				4FD9DCE615ED256B007A0541 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FD9DCCB15ED256B007A0541 /* Twitility */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9DCD415ED256B007A0541 /* AppDelegate.h */,
+				4FD9DCD515ED256B007A0541 /* AppDelegate.m */,
+				4FD9DCD715ED256B007A0541 /* MainStoryboard.storyboard */,
+				4FD9DCDA15ED256B007A0541 /* MasterViewController.h */,
+				4FD9DCDB15ED256B007A0541 /* MasterViewController.m */,
+				4FD9DCDD15ED256B007A0541 /* DetailViewController.h */,
+				4FD9DCDE15ED256B007A0541 /* DetailViewController.m */,
+				4FD9DCCC15ED256B007A0541 /* Supporting Files */,
+			);
+			path = Twitility;
+			sourceTree = "<group>";
+		};
+		4FD9DCCC15ED256B007A0541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9DCCD15ED256B007A0541 /* Twitility-Info.plist */,
+				4FD9DCCE15ED256B007A0541 /* InfoPlist.strings */,
+				4FD9DCD115ED256B007A0541 /* main.m */,
+				4FD9DCD315ED256B007A0541 /* Twitility-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FD9DCEC15ED256C007A0541 /* TwitilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9DCF215ED256C007A0541 /* TwitilityTests.h */,
+				4FD9DCF315ED256C007A0541 /* TwitilityTests.m */,
+				4FD9DCED15ED256C007A0541 /* Supporting Files */,
+			);
+			path = TwitilityTests;
+			sourceTree = "<group>";
+		};
+		4FD9DCED15ED256C007A0541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9DCEE15ED256C007A0541 /* TwitilityTests-Info.plist */,
+				4FD9DCEF15ED256C007A0541 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FD9DCC015ED256B007A0541 /* Twitility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD9DCF715ED256C007A0541 /* Build configuration list for PBXNativeTarget "Twitility" */;
+			buildPhases = (
+				4FD9DCBD15ED256B007A0541 /* Sources */,
+				4FD9DCBE15ED256B007A0541 /* Frameworks */,
+				4FD9DCBF15ED256B007A0541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twitility;
+			productName = Twitility;
+			productReference = 4FD9DCC115ED256B007A0541 /* Twitility.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FD9DCE415ED256B007A0541 /* TwitilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD9DCFA15ED256C007A0541 /* Build configuration list for PBXNativeTarget "TwitilityTests" */;
+			buildPhases = (
+				4FD9DCE015ED256B007A0541 /* Sources */,
+				4FD9DCE115ED256B007A0541 /* Frameworks */,
+				4FD9DCE215ED256B007A0541 /* Resources */,
+				4FD9DCE315ED256B007A0541 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD9DCEB15ED256C007A0541 /* PBXTargetDependency */,
+			);
+			name = TwitilityTests;
+			productName = TwitilityTests;
+			productReference = 4FD9DCE515ED256B007A0541 /* TwitilityTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FD9DCB815ED256B007A0541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "The Plumtree Group";
+			};
+			buildConfigurationList = 4FD9DCBB15ED256B007A0541 /* Build configuration list for PBXProject "Twitility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4FD9DCB615ED256B007A0541;
+			productRefGroup = 4FD9DCC215ED256B007A0541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD9DCC015ED256B007A0541 /* Twitility */,
+				4FD9DCE415ED256B007A0541 /* TwitilityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FD9DCBF15ED256B007A0541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9DCD015ED256B007A0541 /* InfoPlist.strings in Resources */,
+				4FD9DCD915ED256B007A0541 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD9DCE215ED256B007A0541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9DCF115ED256C007A0541 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FD9DCE315ED256B007A0541 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FD9DCBD15ED256B007A0541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9DCD215ED256B007A0541 /* main.m in Sources */,
+				4FD9DCD615ED256B007A0541 /* AppDelegate.m in Sources */,
+				4FD9DCDC15ED256B007A0541 /* MasterViewController.m in Sources */,
+				4FD9DCDF15ED256B007A0541 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD9DCE015ED256B007A0541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD9DCF415ED256C007A0541 /* TwitilityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FD9DCEB15ED256C007A0541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD9DCC015ED256B007A0541 /* Twitility */;
+			targetProxy = 4FD9DCEA15ED256C007A0541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FD9DCCE15ED256B007A0541 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD9DCCF15ED256B007A0541 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4FD9DCD715ED256B007A0541 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD9DCD815ED256B007A0541 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		4FD9DCEF15ED256C007A0541 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD9DCF015ED256C007A0541 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FD9DCF515ED256C007A0541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FD9DCF615ED256C007A0541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FD9DCF815ED256C007A0541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twitility/Twitility-Prefix.pch";
+				INFOPLIST_FILE = "Twitility/Twitility-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4FD9DCF915ED256C007A0541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twitility/Twitility-Prefix.pch";
+				INFOPLIST_FILE = "Twitility/Twitility-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4FD9DCFB15ED256C007A0541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Twitility.app/Twitility";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twitility/Twitility-Prefix.pch";
+				INFOPLIST_FILE = "TwitilityTests/TwitilityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4FD9DCFC15ED256C007A0541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Twitility.app/Twitility";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twitility/Twitility-Prefix.pch";
+				INFOPLIST_FILE = "TwitilityTests/TwitilityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FD9DCBB15ED256B007A0541 /* Build configuration list for PBXProject "Twitility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD9DCF515ED256C007A0541 /* Debug */,
+				4FD9DCF615ED256C007A0541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD9DCF715ED256C007A0541 /* Build configuration list for PBXNativeTarget "Twitility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD9DCF815ED256C007A0541 /* Debug */,
+				4FD9DCF915ED256C007A0541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FD9DCFA15ED256C007A0541 /* Build configuration list for PBXNativeTarget "TwitilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD9DCFB15ED256C007A0541 /* Debug */,
+				4FD9DCFC15ED256C007A0541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FD9DCB815ED256B007A0541 /* Project object */;
+}
