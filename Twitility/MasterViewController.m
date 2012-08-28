@@ -2,7 +2,7 @@
 //  MasterViewController.m
 //  Twitility
 //
-//  Created by Ali Hashmi on 8/28/12.
+//  Created by Hamza Waqas on 8/28/12.
 //  Copyright (c) 2012 The Plumtree Group. All rights reserved.
 //
 
@@ -153,13 +153,8 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    /*
-     if ([[segue identifier] isEqualToString:@"showDetail"]) {
-     NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-     NSDate *object = [_objects objectAtIndex:indexPath.row];
-     [[segue destinationViewController] setDetailItem:object];
-     }*/
     if ([segue.identifier isEqualToString:@"showTweet"]) {
+        
         NSInteger row = [[self tableView].indexPathForSelectedRow row];
         NSDictionary *tweet = [tweets objectAtIndex:row];
         
